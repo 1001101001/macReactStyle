@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Window, TitleBar, Text, ProgressCircle } from 'react-desktop/';
+import { Window, TitleBar } from 'react-desktop/';
 
 export default class extends Component {
   render() {
@@ -11,6 +11,7 @@ export default class extends Component {
       >
         <TitleBar title="untitled text 5" controls/>
         <h1>macOS style window in react!</h1>
+
 
       </Window>
     );
